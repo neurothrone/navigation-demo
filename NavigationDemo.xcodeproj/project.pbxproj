@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2F0AA961294B3E8100413753 /* NavigationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA960294B3E8100413753 /* NavigationDemoApp.swift */; };
-		2F0AA963294B3E8100413753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA962294B3E8100413753 /* ContentView.swift */; };
+		2F0AA963294B3E8100413753 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA962294B3E8100413753 /* ParentView.swift */; };
 		2F0AA965294B3E8200413753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0AA964294B3E8200413753 /* Assets.xcassets */; };
 		2F0AA968294B3E8200413753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0AA967294B3E8200413753 /* Preview Assets.xcassets */; };
+		2F0AA96F294B3EE500413753 /* ConfidenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA96E294B3EE500413753 /* ConfidenceView.swift */; };
+		2F0AA971294B3F2F00413753 /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA970294B3F2F00413753 /* MediaPlayerView.swift */; };
+		2F0AA973294B3F6700413753 /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA972294B3F6700413753 /* NavigationUtil.swift */; };
+		2F0AA975294B3F7200413753 /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AA974294B3F7200413753 /* HomeButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F0AA95D294B3E8100413753 /* NavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0AA960294B3E8100413753 /* NavigationDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoApp.swift; sourceTree = "<group>"; };
-		2F0AA962294B3E8100413753 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F0AA962294B3E8100413753 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		2F0AA964294B3E8200413753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0AA967294B3E8200413753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F0AA96E294B3EE500413753 /* ConfidenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidenceView.swift; sourceTree = "<group>"; };
+		2F0AA970294B3F2F00413753 /* MediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
+		2F0AA972294B3F6700413753 /* NavigationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
+		2F0AA974294B3F7200413753 /* HomeButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				2F0AA960294B3E8100413753 /* NavigationDemoApp.swift */,
-				2F0AA962294B3E8100413753 /* ContentView.swift */,
+				2F0AA962294B3E8100413753 /* ParentView.swift */,
+				2F0AA96E294B3EE500413753 /* ConfidenceView.swift */,
+				2F0AA970294B3F2F00413753 /* MediaPlayerView.swift */,
+				2F0AA974294B3F7200413753 /* HomeButtonView.swift */,
+				2F0AA972294B3F6700413753 /* NavigationUtil.swift */,
 				2F0AA964294B3E8200413753 /* Assets.xcassets */,
 				2F0AA966294B3E8200413753 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0AA963294B3E8100413753 /* ContentView.swift in Sources */,
+				2F0AA971294B3F2F00413753 /* MediaPlayerView.swift in Sources */,
+				2F0AA975294B3F7200413753 /* HomeButtonView.swift in Sources */,
+				2F0AA963294B3E8100413753 /* ParentView.swift in Sources */,
+				2F0AA973294B3F6700413753 /* NavigationUtil.swift in Sources */,
+				2F0AA96F294B3EE500413753 /* ConfidenceView.swift in Sources */,
 				2F0AA961294B3E8100413753 /* NavigationDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
